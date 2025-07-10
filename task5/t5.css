@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(120deg, #e0f7fa, #ffffff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  border: 2px solid #bde0fe;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #90e0ef;
+  color: #0077b6;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #00b4d8;
+  color: white;
+}
+
+.weather-card {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+  display: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
